@@ -1,0 +1,465 @@
+.pageTitle {
+    max-width: 400px;
+}
+
+.pageTitle {
+    font-size: 18px;
+    top: 150px;
+    left: 15px;
+}
+
+.pageTitle {
+    color: #1E78E0;
+    font-size: 30px;
+    font-family:'Montserrat', sans-serif ;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+
+
+.logoImageList {
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    width: 90px;
+}
+.error {
+    padding-top: 196px;
+    max-width: 300px;
+}
+
+.error {
+    position: absolute;
+    color: red;
+    padding-top: 160px;
+    padding-left: 9.8%;
+}
+
+.filterFormAdapter {
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+}
+
+.filterContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+
+
+.filterTitle {
+    color: #5F6377;
+    font-size: 18px;
+    margin: 0px 0px 8px 0px;
+}
+
+.selectInput {
+    width: 346px;
+    padding: 10px;
+    color: #5F6377;
+}
+
+.buttonFilterAdapter {
+    margin-left: 80px;
+   margin-top: 8px;
+    padding-top: 28px;
+    
+}
+
+
+
+
+.button {
+    border-radius: 5px;
+    background-color:#1E78E0;
+    padding: 1px 5px;
+    width: 146px;
+    height: 35px;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+
+.button:hover {opacity: 1}
+
+.buttonText {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+     margin: auto;
+}
+
+.tableAdapter {
+    margin-left: 10%;
+    margin-top: 70px;
+    width: 1200px;
+    
+}
+
+.tableTitleAdapter {
+    margin-bottom: 24px;
+
+}
+
+.tableTitle {
+    color: #5F6377;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.table {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+.tableCabecalho{
+    background-color: #1E78E0;
+}
+
+.tableTh {
+    border: 1px solid #E7E7ED;
+    color: white;
+    font-size: 17px;
+    margin: 0;
+    padding: 12px;
+    width: 273px;
+}
+
+.tableTr {
+    cursor: pointer;
+}
+
+.tableTr:hover {background-color: #E7E7ED;}
+
+.paginationAdapter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.paginationButton {
+    background: #5F6377;
+    border-radius: 4px;
+    padding: 10px;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.paginationButtonText {
+    color: #FFFFFF;
+    padding-top: 7px;
+    
+    
+}
+
+.paginationCurrentPageTextAdapter {
+    border: 1px solid #5F637780;
+    margin: 0px 8px;
+    width: 39px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.paginationCurrentPageText {
+    color: #5F6377;
+    /*padding: 10px*/
+    padding-top: 8px;
+}
+
+.backButtonAdapter {
+    display: flex;
+    font-size: 13px;
+    color: #5F6377;
+    cursor: pointer;
+}
+
+.backButtonText{
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    width: 90px;
+}
+
+.footerAdapter {
+    position: fixed;
+    bottom: -10px;
+    width: 100%;
+    z-index: -1;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 960px) {
+    .menuItemsContainer {
+        min-width: auto;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 880px) {
+
+    .formAdapterLessSpacing {
+        padding-top: 250px;
+    }
+    
+    .errorLessSpacing {
+        padding-top: 150px;
+    }
+
+    .successLessSpacing {
+        padding-top: 150px;
+    }
+
+    .formAdapter {
+        padding-top: 295px;
+    }
+
+    .error {
+        padding-top: 196px;
+        max-width: 300px;
+    }
+
+    .pageTitle {
+        max-width: 200px;
+    }
+
+    .menuItemsContainer {
+        min-width: auto;
+    }
+
+    .container {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        padding: 0px;
+    }
+
+    .loginForm {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-content: center;
+    }
+
+    .logoutContainer {
+        right: 20px;
+        top: 20px;
+        font-size: 13px;
+    }
+
+    .menuContainer {
+        width: 80%;
+    }
+
+    .menuTitle {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .menuItem  {
+        width: 90%;
+    }
+
+    .menuItemText {
+        max-width: 80px;
+        font-size: 17px;
+    }
+
+    .previewImageAdapter {
+        display: none;
+    }
+
+    .formAdapter {
+        padding-left: 9%;
+    }
+
+    .formRow {
+        flex-direction: column;
+        max-width: 80%;
+    }
+
+    .inputLabel {
+        font-size: 14px;
+    }
+
+    .buttonText {
+        font-size: 14px;
+    }
+
+    .footerImageLeft {
+        display: none;
+    }
+
+    .footerImageRight {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1399px) {
+
+    .logoImageList {
+        display: none;
+    }
+
+    .table {
+        max-width: 95%;
+    }
+
+}
+
+@media (max-width: 1180px) {
+
+    .logoImageList {
+        display: block;
+    }
+
+    .filterFormAdapter {
+        flex-direction: column;
+    }
+
+    .filterContainer {
+        margin-top: 20px;
+    }
+
+    .buttonFilterAdapter {
+        margin-top: 25px;
+        margin-left: 10%;
+    }
+
+    .footerImageLeftListAdapter {
+        display: none;
+    }
+
+    .footerImageRightListAdapter {
+        display: none;
+    }
+
+    .paginationAdapter {
+        margin-bottom: 20px;
+    }
+
+    .backButtonAdapter {
+        margin-bottom: 80px;
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    .logoImageList {
+        display: none;
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    .errorLessSpacing {
+        padding-top: 200px;
+    }
+
+    .successLessSpacing {
+        padding-top: 200px;
+    }
+
+    .menuItemsContainer {
+        margin-bottom: 300px;
+    }
+
+    .pageTitle {
+        font-size: 18px;
+        top: 150px;
+        left: 15px;
+    }
+
+    .tableTh {
+        font-size: 11px;
+    }
+
+    .tableTd {
+        font-size: 10px;
+    }
+
+    .logoImageList {
+        display: block;
+        top: 20px;
+        left: 15px;
+        width: 90px;
+    }
+
+    .logoImage {
+        top: auto;
+        left: 15px;
+        width: 90px;
+    }
+
+    .pageSubtitle {
+        position: absolute;
+        left: 15px;
+        top: 150px;
+        font-size: 18px;
+    }
+
+    .filterContainer {
+        margin-left: 15px;
+    }
+
+    .buttonFilterAdapter {
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .selectInput {
+        width: 95%;
+    }
+
+    .tableAdapter {
+        margin-left: 15px;
+    }
+
+    .buttonAdapter {
+        margin-left: 15px;
+    }
+
+}
+
+@media (max-height: 731px) {
+
+        .footerImageLeft {
+            display: none;
+        }
+    
+        .footerImageRight {
+            display: none;
+        }
+}
+

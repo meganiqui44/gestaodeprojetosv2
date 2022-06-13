@@ -1,0 +1,101 @@
+.logoutContainer {
+    right: 20px;
+    top: 20px;
+    font-size: 13px;
+}
+
+.container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 2%;
+    background-color: rgb(209, 206, 206, 0.31);
+}
+
+.previewImageAdapter {
+    display: none;
+}
+
+.previewImageAdapter {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.previewImage {
+    width: 100%;
+    max-width: 600px;
+}
+
+.menuContainer {
+    width: 80%;
+}
+
+.menuTitle {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.menuTitle {
+    color: #3059A8;
+    font-size: 25px;
+    text-align: center;
+}
+
+.menuItemsContainer {
+    min-width: auto;
+}
+
+.menuItemsContainer {
+    margin-bottom: 300px;
+}
+
+.menuItemsContainer {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    min-width: 476px;
+}
+
+.menuItem  {
+    background-color: #3059A8;
+    width: 40%;
+    height: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+.menuItem:hover {opacity: 1}
+
+.menuItem  {
+    width: 90%;
+}
+
+.menuItemText {
+    max-width: 80px;
+    font-size: 17px;
+}
+
+.menuItemText {
+    color: white;
+    font-size: 20px;
+    max-width: 150px;
+    text-align: center;
+}
+
